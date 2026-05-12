@@ -5,7 +5,7 @@ CREATE TABLE unidade_federativa(
 
 CREATE TABLE crime(
 	id_crime SERIAL PRIMARY KEY,
-	nome_crime VARCHAR(100) NOT NULL
+	nome_crime VARCHAR(100) NOT NULL UNIQUE
 );
 
 CREATE TABLE tempo(
